@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/first"
+            android:title="First Fragment"
+            android:icon="@drawable/baseline_account_circle_black_24dp"
+            />
+        <item android:id="@+id/Second"
+            android:title="Secound Fragment"
+            android:icon="@drawable/baseline_date_range_black_24dp"
+            />
+        <item android:id="@+id/Third"
+            android:title="Third Fragment"
+            android:icon="@drawable/baseline_home_black_24dp"
+            />
+
+    </group>
+
+</menu>
